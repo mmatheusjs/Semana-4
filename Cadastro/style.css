@@ -114,6 +114,12 @@ header{
 }
 
 #btn_add:hover{
+    width: 120px;
+    /* height: 43px; */
     color: rgb(231, 104, 104);
     background-color:  rgb(78, 1, 1);
+}
+
+#btn_add:active{
+    position: 10px 0px 0px 0px relative;
 }

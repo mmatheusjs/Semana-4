@@ -112,24 +112,29 @@ table{
     height: auto;
 }
 
-th{
-
+thead th{
+    border-bottom: 0.5px solid rgb(136, 136, 136);
+    border-right: 0.5px solid rgb(136, 136, 136);
+    border-collapse: collapse;
+    background-color: rgb(105, 60, 60);
+    padding: 5px;
+    color: rgb(255, 151, 132);
+    text-transform: uppercase;
 }
 
 td{
     border-bottom: 0.5px solid rgb(136, 136, 136);
-    border-right: 0.5px solid rgb(136, 136, 136); ;
+    border-right: 0.5px solid rgb(136, 136, 136); 
     border-collapse: collapse;
     padding: 3px;
 }
-
 
 tr:hover{
     background-color: rgba(235, 196, 196, 0.5);
 }
 
 tr:nth-child(even){
-    background-color: rgba(153, 47, 47, 0.5);
+    background-color: rgba(153, 47, 47, 0.733);
 }
 
 tr:nth-child(even):hover{
