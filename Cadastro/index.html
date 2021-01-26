@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+
+    <title>Carnes VIP</title>
+
+</head>
+
+
+<body>
+    
+    <header>
+        <nav id="nav-menu">
+            <div class="div_img">
+                 <a href="index.html"><img src="https://respostas.sebrae.com.br/wp-content/uploads/2014/05/A%C3%A7ougue-806x440.jpg"
+                    alt="home" class="home_img"></a>    
+            </div>
+            
+            <div class="menu">
+                 <a class="nav_link" href="#">Cadastro</a>
+                 <a class="nav_link" href="/Consulta/index.html">Consultar</a>
+            </div>
+        </nav>  
+    </header>
+
+<div id="cadastro"> 
+    <div id="formulario">
+        <h1 class="titulo1">Cadastro de produtos</h1>
+        <form action="" id="form_cadastro">
+            
+            <div class="funcionario default">
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                    <label class="mdl-textfield__label" for="func_name">Funcionário:</label>
+                    <select class="mdl-textfield__input" id="func_name">
+                        <option value="" disabled selected></option>
+                        <option value="matheus">Matheus</option>
+                        <option value="lucas">Lucas</option>
+                        <option value="andreia">Andreia</option>
+                    </select>
+                </div>
+            </div>
+
+        <div class="carnes default">
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <label class="mdl-textfield__label" for="carne_select">Tipo de Carne:</label>
+                <select class="mdl-textfield__input" id="carne_select">
+                    <option value="" disabled selected></option>
+                   
+                    <optgroup label="Bovina">
+                        <option value="bife">Contra-Filé</option>
+                        <option value="maminha">Maminha</option>
+                        <option value="moida">Carne Moída</option>
+                        <option value="costela">Costela</option>
+                        <option value="picanha">Picanha</option>
+                    </optgroup>
+                   
+                    <optgroup label="Suina">
+                        <option value="bisteca">Bisteca</option>
+                        <option value="toucinho">Toucinho</option>
+                        <option value="pancetta">Pancetta</option>
+                    </optgroup>
+                    
+                    <optgroup label="Frango">
+                        <option value="peito">Peito de Frango</option>
+                        <option value="asa">Asa de Frango</option>
+                        <option value="miudos">Miudos</option>
+                    </optgroup>
+                </select>
+            </div>
+        </div>
+
+        <div class="peso default">
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <label class="mdl-textfield__label" for="quilos">Peso (kg)</label>
+                <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="quilos">
+                <span class="mdl-textfield__error">Digite apenas números</span>
+            </div>
+        </div>
+
+        <div class="validade default">
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <label class="mdl-textfield__label" for="data">Validade:</label>
+                <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="data" placeholder="dd/mm/aaaa">
+                <span class="mdl-textfield__error">Digite apenas números</span>
+            </div>
+        </div>
+
+        <div class="btn_enviar default">
+            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" id="btn_add">
+                Adicionar
+            </button>
+        </div>
+
+                
+        </form>
+    </div> <!-- div formulario -->
+ </div>
+
+</div>
+    
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+</body>
+
+
+
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Consulta/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+
+    <title>Consulta</title>
+</head>
+
+
+<body>
+    <header>
+        <nav id="nav-menu">
+            <div class="div_img">
+                 <a href="/Cadastro/index.html"><img src="https://respostas.sebrae.com.br/wp-content/uploads/2014/05/A%C3%A7ougue-806x440.jpg"
+                    alt="home" class="home_img"></a>    
+            </div>
+            
+            <div class="menu">
+                 <a class="nav_link" href="/Cadastro/index.html">Cadastro</a>
+                 <a class="nav_link" href="#">Consultar</a>
+            </div>
+        </nav>  
+    </header>
+
+    <div class="estoque">
+        <div class="consulta">
+          <h1>Estoque de produtos</h1>
+             <div class="search">
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                   <input class="mdl-textfield__input" type="text" id="filtrar">
+                   <label class="mdl-textfield__label" for="filtrar">Filtrar:</label>
+                </div>
+             </div>
+
+            <table>
+               
+            <thead>
+                <tr>
+                  <th>Funcionário</th>
+                  <th>Tipo de Carne</th>
+                  <th>Peso</th>
+                  <th>Validade</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                  <td>Matheus</td>
+                  <td>Contra-Filé</td>
+                  <td>10</td>
+                  <td>05/07/2021</td>
+                </tr>
+                <tr>
+                  <td>Lucas</td>
+                  <td>Bisteca</td>
+                  <td>5</td>
+                  <td>10/05/2021</td>
+                </tr>
+                <tr>
+                  <td>Andreia</td>
+                  <td>Peito de Frango</td>
+                  <td>8</td>
+                  <td>12/04/2021</td>
+                </tr>
+            </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+</body>
+
+
+
+</html>
