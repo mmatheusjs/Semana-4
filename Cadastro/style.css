@@ -121,5 +121,5 @@ header{
 }
 
 #btn_add:active{
-    position: 10px 0px 0px 0px relative;
+    transition
 }

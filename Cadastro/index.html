@@ -74,36 +74,36 @@
             </div>
         </div>
 
-        <div class="peso default">
-            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                <label class="mdl-textfield__label" for="quilos">Peso (kg)</label>
-                <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="quilos">
-                <span class="mdl-textfield__error">Digite apenas números</span>
+        <!-- <div class="peso default">
+                  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                    <input class="mdl-textfield__input" type="text" id="quilos">
+                    <label class="mdl-textfield__label" for="quilos">Peso (Kg)</label>
+                  </div>
+        </div> -->
+        
+        <div class="serialnumber default">
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                    <input class="mdl-textfield__input" type="text" id="sn" maxlength="7">
+                    <label class="mdl-textfield__label" for="sn">Número de série:</label>
+                </div>
             </div>
-        </div>
-
-        <div class="validade default">
-            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                <label class="mdl-textfield__label" for="data">Validade:</label>
-                <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="data" placeholder="dd/mm/aaaa">
-                <span class="mdl-textfield__error">Digite apenas números</span>
-            </div>
-        </div>
+        
 
         <div class="btn_enviar default">
-            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" id="btn_add">
+            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" id="btn_add" onclick="salvar()">
                 Adicionar
             </button>
         </div>
-
-                
+               
         </form>
+
     </div> <!-- div formulario -->
- </div>
+ </div> <!--div cadastro-->
 
 </div>
     
 <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+<script src="main.js"></script>
 </body>
 
 
