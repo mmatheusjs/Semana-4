@@ -74,16 +74,16 @@
             </div>
         </div>
 
-        <!-- <div class="peso default">
+        <div class="peso default">
                   <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                    <input class="mdl-textfield__input" type="text" id="quilos">
+                    <input class="mdl-textfield__input" type="text" id="quilos" onkeypress="return event.charCode >= 48 && event.charCode <= 57" maxlength="5">
                     <label class="mdl-textfield__label" for="quilos">Peso (Kg)</label>
                   </div>
-        </div> -->
+        </div>
         
         <div class="serialnumber default">
                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                    <input class="mdl-textfield__input" type="text" id="sn" maxlength="7">
+                    <input class="mdl-textfield__input" type="text" id="sn" maxlength="7" onkeypress="return event.charCode >= 48 && event.charCode <= 57">
                     <label class="mdl-textfield__label" for="sn">Número de série:</label>
                 </div>
             </div>

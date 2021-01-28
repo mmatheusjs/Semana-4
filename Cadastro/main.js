@@ -1,13 +1,11 @@
-// function  formatar_valor(e){
-//     console.log(e);
-//     var charCode = e.data.charCodeAt(0);
-//     console.log(charCode);
-//     if(charCode != 8 && charCode != 9) {
-//         if(charCode < 48 || charCode > 57) {
-//             return false;
-//         }
+// function isNumberKey(event) {
+//     if (event.keyCode >= 48 && event.keyCode <= 57) {
+//         return true;
+//     } else {
+//         event.preventDefault();
 //     }
 // }
+
  
 function formatar_valor(event){
     if(event.target.value.length == 3){
@@ -29,6 +27,7 @@ function salvar(){
     produtos.push({
         'func_name': document.getElementById('func_name').value,
         'carne_select': document.getElementById('carne_select').value,
+        'quilos': document.getElementById('quilos').value,
         'sn': document.getElementById('sn').value
     });
 
