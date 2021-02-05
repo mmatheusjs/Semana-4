@@ -21,5 +21,5 @@ for (i = 0; i < produtos.length; i++) {
     td[3].innerHTML = sn;
 }
 
-localStorage.clear();
+// localStorage.clear();
 
