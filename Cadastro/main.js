@@ -33,7 +33,6 @@ function salvar(){
 
     const json_produtos = JSON.stringify(produtos);
 
-    localStorage.setItem("produtos", json_produtos);
-   
+    localStorage.setItem("produtos", json_produtos); 
 
 }
